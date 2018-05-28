@@ -1,0 +1,10 @@
+<view>
+    <swiper>
+        <swiper-item>
+            <image src="/images/wx.png"></image>
+
+        </swiper-item>
+        <swiper-item>Content1</swiper-item>
+        <swiper-item>Content2</swiper-item>
+    </swiper>
+</view>
