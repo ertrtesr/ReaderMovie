@@ -21,7 +21,7 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-        console.log("onLoad")
+        //console.log("onLoad")
         
         //等同于将post_content1写在data下面
         this.setData({
@@ -33,35 +33,35 @@ Page({
      * 生命周期函数--监听页面初次渲染完成
      */
     onReady: function () {
-        console.log("onReady")
+        //console.log("onReady")
     },
     
     /**
      * 生命周期函数--监听页面显示
      */
     onShow: function () {
-        console.log("onShow")
+        //console.log("onShow")
     },
     
     /**
      * 生命周期函数--监听页面隐藏
      */
     onHide: function () {
-        console.log("onHide")
+        //console.log("onHide")
     },
     
     /**
      * 生命周期函数--监听页面卸载
      */
     onUnload: function () {
-        console.log("onUnload")
+        //console.log("onUnload")
     },
     
     /**
      * 页面相关事件处理函数--监听用户下拉动作
      */
     onPullDownRefresh: function () {
-        console.log("onPullDownRefresh")
+        //console.log("onPullDownRefresh")
     },
     
     /**
@@ -80,11 +80,9 @@ Page({
     
     onPostTap: function (event) {
         var postId = event.currentTarget.dataset.postid;
-        console.log(postId);
-        
         
         wx.navigateTo({
-          url: "post-detail/post-detail"
+            url: "post-detail/post-detail?id=" + postId
         })
     }
     
