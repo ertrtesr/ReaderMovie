@@ -102,6 +102,14 @@ Page({
                 })
             }
         })
+    },
+    
+    onMusicTap:function (event) {
+        wx.playBackgroundAudio({
+            dataUrl:"http://dl.stream.qqmusic.qq.com/C400002onHQm0o2EnW.m4a?vkey=48B6CDF469DE8C130325F0ECB729750107B648AE7950F137E30844C8F990858CC048941D46AF959817309DC5AE7CA982A4EAE9340207CAC4&guid=3781842900&uin=0&fromtag=66",
+            title:"此时此刻",
+            coverImgUrl:"http://y.gtimg.cn/music/photo_new/T002R150x150M000001TEc6V0kjpVC.jpg?max_age=2592000"
+        })
     }
     
 })
