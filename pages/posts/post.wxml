@@ -16,7 +16,9 @@
 
     <!--for循环每个元素默认以item命名-->
     <block wx:for="{{postList}}" wx:for-item="item" wx:for-index="index">
-        <!--使用模板template is后面等于的是模板名字-->
-        <template is="postItem" data="{{item}}"/>
+        <view catchtap="onPostTap">
+            <!--使用模板template is后面等于的是模板名字-->
+            <template is="postItem" data="{{...item}}"/>
+        </view>
     </block>
 </view>

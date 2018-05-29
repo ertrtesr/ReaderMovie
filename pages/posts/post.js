@@ -76,5 +76,10 @@ Page({
      */
     onShareAppMessage: function () {
     
+    },
+    
+    onPostTap: function () {
+        console.log("onPostTap");
     }
+    
 })
