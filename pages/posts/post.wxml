@@ -16,7 +16,7 @@
     <block wx:for="{{posts_key}}" wx:for-item="item" wx:for-index="index">
         <view class="post-container">
             <view class="post-author-date">
-                <image wx:if="true" class="post-author" src="{{item.avatar}}" wx:for=""></image>
+                <image wx:if="true" class="post-author" src="{{item.avatar}}"></image>
                 <text class="post-date">{{"hello "+item.date}} {{index}}</text>
             </view>
             <text class="post-title">{{item.title}}</text>
