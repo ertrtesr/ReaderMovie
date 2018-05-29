@@ -78,8 +78,14 @@ Page({
     
     },
     
-    onPostTap: function () {
-        console.log("onPostTap");
+    onPostTap: function (event) {
+        var postId = event.currentTarget.dataset.postid;
+        console.log(postId);
+        
+        
+        wx.navigateTo({
+          url: "post-detail/post-detail"
+        })
     }
     
 })

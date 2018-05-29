@@ -3,7 +3,9 @@ Page({
     onTap: function (event) {
         console.log("onTap");
         
-        //平行跳转
+        
+        //子页面跳转 navigateTo
+        //平行跳转  redirectTo
         wx.redirectTo({
             url: '../posts/post',
         })

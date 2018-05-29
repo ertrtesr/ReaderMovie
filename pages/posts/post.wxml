@@ -16,7 +16,8 @@
 
     <!--for循环每个元素默认以item命名-->
     <block wx:for="{{postList}}" wx:for-item="item" wx:for-index="index">
-        <view catchtap="onPostTap">
+        <!--data-postId:自定义属性-->
+        <view catchtap="onPostTap" data-postId="{{item.postId}}" data-post-name="name">
             <!--使用模板template is后面等于的是模板名字-->
             <template is="postItem" data="{{...item}}"/>
         </view>
