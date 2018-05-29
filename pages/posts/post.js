@@ -25,8 +25,8 @@ Page({
         
         //等同于将post_content1写在data下面
         this.setData({
-            posts_key: postsData.postList
-        });
+            postList: postsData.postList
+        })
     },
     
     /**
