@@ -4,7 +4,6 @@
     <swiper indicator-dots="true" autoplay="true" interval="5000">
         <swiper-item>
             <image src="/images/wx.png"></image>
-
         </swiper-item>
         <swiper-item>
             <image src="/images/vr.png"></image>
