@@ -6,8 +6,12 @@ Page({
         
         //子页面跳转 navigateTo
         //平行跳转  redirectTo
-        wx.redirectTo({
-            url: '../posts/post',
+        //wx.redirectTo({
+        //    url: '../posts/post',
+        //})
+        
+        wx.switchTab({
+          url: '../posts/post'
         })
     },
     
